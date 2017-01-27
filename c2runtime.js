@@ -20654,12 +20654,12 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.cnds.CompareVar,
 	cr.system_object.prototype.acts.SetVar,
 	cr.system_object.prototype.acts.GoToLayout,
+	cr.plugins_.WebStorage.prototype.exps.LocalValue,
+	cr.plugins_.Text.prototype.acts.SetText,
 	cr.system_object.prototype.acts.Scroll,
 	cr.plugins_.Sprite.prototype.exps.X,
 	cr.plugins_.Sprite.prototype.exps.Y,
 	cr.plugins_.WebStorage.prototype.cnds.LocalStorageExists,
-	cr.plugins_.WebStorage.prototype.exps.LocalValue,
-	cr.plugins_.Text.prototype.acts.SetText,
 	cr.system_object.prototype.cnds.Else,
 	cr.behaviors.Platform.prototype.cnds.IsOnFloor,
 	cr.behaviors.Platform.prototype.acts.SimulateControl,
@@ -20704,4 +20704,3 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.exps.newline,
 	cr.plugins_.Sprite.prototype.acts.SetPos
 ];};
-
