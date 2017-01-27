@@ -27,8 +27,6 @@
 
 	<preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
 
-	<gap:plugin name="org.crosswalk.engine" source="pgb" />
-
 	<gap:plugin name="cordova-plugin-whitelist" source="npm" />
 	<access origin="*" />
 
